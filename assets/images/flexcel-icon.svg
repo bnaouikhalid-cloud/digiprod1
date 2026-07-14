@@ -1,0 +1,54 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Flexcel Icon V8 - Fine-Tuned Isometric Alignment -->
+  <defs>
+    <filter id="softDropShadow" x="-100%" y="-100%" width="300%" height="300%">
+      <feDropShadow dx="-10" dy="15" stdDeviation="12" flood-opacity="0.1" />
+    </filter>
+  </defs>
+
+  <g transform="translate(128, 128) scale(1.1)">
+    <g transform="rotate(-45) skewX(20) skewY(20)">
+      <!-- Base Grid Layer -->
+      <g transform="translate(-60, -40)">
+        <!-- Tile 0 -->
+        <g transform="translate(0, 0)">
+          <rect x="-4" y="4" width="36" height="36" rx="4" fill="#94a3b8" />
+          <rect x="0" y="0" width="36" height="36" rx="4" fill="#cbd5e1" />
+        </g>
+        <!-- Tile 1 (Active Slot Underneath) -->
+        <g transform="translate(46, 0)">
+          <rect x="0" y="0" width="36" height="36" rx="4" fill="#20456E" opacity="0.05" />
+        </g>
+        <!-- Tile 2 -->
+        <g transform="translate(92, 0)">
+          <rect x="-4" y="4" width="36" height="36" rx="4" fill="#94a3b8" />
+          <rect x="0" y="0" width="36" height="36" rx="4" fill="#cbd5e1" />
+        </g>
+
+        <!-- Row 2 -->
+        <!-- Tile 3 (Navy) -->
+        <g transform="translate(0, 46)">
+          <rect x="-4" y="4" width="36" height="36" rx="4" fill="#183352" />
+          <rect x="0" y="0" width="36" height="36" rx="4" fill="#20456E" />
+        </g>
+        <!-- Tile 4 -->
+        <g transform="translate(46, 46)">
+          <rect x="-4" y="4" width="36" height="36" rx="4" fill="#94a3b8" />
+          <rect x="0" y="0" width="36" height="36" rx="4" fill="#cbd5e1" />
+        </g>
+        <!-- Tile 5 -->
+        <g transform="translate(92, 46)">
+          <rect x="-4" y="4" width="36" height="36" rx="4" fill="#94a3b8" />
+          <rect x="0" y="0" width="36" height="36" rx="4" fill="#cbd5e1" />
+        </g>
+      </g>
+
+      <!-- Elevated Active Tile (The Copper Tile) -->
+      <!-- Fine-tuned: Shifted 2 more points Down (from -52 to -50) -->
+      <g transform="translate(-12, -39)" filter="url(#softDropShadow)">
+          <rect x="-4" y="4" width="36" height="36" rx="4" fill="#c08b53" />
+          <rect x="0" y="0" width="36" height="36" rx="4" fill="#D9A066" />
+      </g>
+    </g>
+  </g>
+</svg>
